@@ -1,0 +1,15 @@
+{
+  "name": "nodegptelebot",
+  "version": "1.0.0",
+  "description": "A powerful Telegram AI chatbot using Node.js and ChatGPT in this step-by-step tutorial. Discover how to easily integrate ChatGPT's advanced language capabilities into your Telegram bot, allowing it to understand and respond to user input with natural language. Perfect for businesses, organizations, and individuals looking to improve customer engagement and automate their messaging. Start building your own Telegram AI chatbot today with Node.js and ChatGPT.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "openai": "^4.28.4"
+  }
+}
