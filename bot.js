@@ -1,17 +1,14 @@
 const Telegram = require("node-telegram-bot-api");
 const { Configuration, OpenAI } = require("openai");
 
-const botToken = "7010172189:AAEiGDN_gIxhdcsHrLO2ev6IDq_5Z4_USYI";
-const openaiToken = "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";
+const botToken = "add-your-sectret-token";
 
 // const config = new Configuration({
 //   apiKey: openaiToken,
 // });
 
 const openai = new OpenAI({
-  //key: "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",
-  // apiKey: process.env["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"],
-  apiKey: "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",
+  apiKey: "add-your-sectret-token",
 });
 
 const bot = new Telegram(botToken, { polling: true });
